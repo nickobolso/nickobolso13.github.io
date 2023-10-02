@@ -1,0 +1,83 @@
+body {
+    
+    background: linear-gradient(to right, blue, pink);
+    font-family: Arial, Helvetica, Sans-serif;
+    color: white;
+    font-size: 16px;
+    text-shadow : 1px 1,5px 1px #080000 /* sombra vertical horizontal y fundido*/
+
+}
+
+p { line-height: 1.5;
+    font-weight: bold; 
+    /*font-style: italic;*/
+    vertical-align: middle; 
+    text-indent : 25px; /* sangría primera línea*/
+    text-align:left
+}
+
+nav {
+    border: 10px solid red;
+    text-align: center;
+    
+}
+
+
+
+nav ol li {
+    display: inline-block;
+    margin: 0 px;
+   
+    
+}
+
+nav ol li a {
+    color: white;
+    text-decoration-color: brown;
+   
+
+}
+
+.derecho{text-align:right;border:4px double #f9f9f9; padding:8px;}
+
+.bloque {
+    height: 400px; 
+    width: 1200px;
+    background-color: rgb(26, 71, 161);
+    display: inline-table;
+}
+.tex {
+    display: table-cell;
+    vertical-align: middle;
+}
+#identificador    {
+    margin-top: 40px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    }
+
+    ul
+    .menu {
+        text-align: center;
+        padding: 0 10px;
+      }
+      
+      li {
+        list-style: none;
+        display: inline-block;
+        margin-right: 10px;
+      }
+      
+      a {
+        text-decoration: none;
+        color: black;
+      }
+
+      .titular {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 48px;
+      }
